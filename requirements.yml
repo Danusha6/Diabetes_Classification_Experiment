@@ -1,0 +1,14 @@
+name: diabetes-ml
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - imbalanced-learn
+  - jupyter
+  - pip:
+      - black
+      - flake8
+      - nbqa
