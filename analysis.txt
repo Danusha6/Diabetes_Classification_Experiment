@@ -19,4 +19,4 @@ By refactoring the project into a modular structure, the project became more org
 
 
 AI Transparency
-AI tools were used for grammatical assistance and help explain project structure concepts in a clear and simple way.
+AI tools were used for grammatical assistance and help explain project structure concepts in a clear and simple way. All structuring and coding was done by Me(Danait Gebremedhin)
