@@ -1,6 +1,12 @@
 # Diabetes & Heart Disease Classification
 This project applies machine learning models to two medical classification problems: predicting diabetes and heart disease. The workflow includes data cleaning, standardization, PCA, SMOTE for class balancing, model evaluation, and visualization.
 
+## Project Structure
+- notebooks/: exploratory analysis
+- src/: reusable ML code
+- tests/: basic unit tests
+- data/: datasets
+
 ## Datasets
 - `diabetes.csv`: From Pima Indian Diabetes Dataset
 - `heart.csv`: Synthetic dataset based on UCI Heart Disease data

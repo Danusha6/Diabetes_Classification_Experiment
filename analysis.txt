@@ -1,0 +1,22 @@
+Project Refactoring Analysis
+
+1. Original Project Structure
+At first, this project mainly used Jupyter notebooks. Each notebook contained data loading, data cleaning, model training, and evaluation all in one place. Because everything was combined, the project was harder to read, reuse, and maintain.
+
+2. Refactored Project Structure
+The project was reorganized into a more structured format. Notebooks are now used only for exploration and testing ideas. The main logic, such as data processing and model training, was moved into Python files inside the src/ folder.
+
+3. Design Decisions
+The src/ folder stores reusable code for loading data, preprocessing, training models, and evaluating results. The notebooks/ folder is kept for exploratory analysis only. A tests/ folder was added to include simple tests. This organization makes the project easier to understand and manage.
+
+4. Benefits of the New Structure
+The new structure makes the project cleaner and easier to work with. Code can be reused across different notebooks, and changes can be made without affecting the entire project. This also makes the project easier to extend in the future.
+
+5. Conclusion
+By refactoring the project into a modular structure, the project became more organized and professional. This structure follows good machine learning practices and supports easier maintenance and future development.
+
+
+
+
+AI Transparency
+AI tools were used for grammatical assistance and help explain project structure concepts in a clear and simple way.
