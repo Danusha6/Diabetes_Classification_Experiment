@@ -1,8 +1,10 @@
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import classification_report
+
+# Lambda
+accuracy_fn = lambda y_true, y_pred: (y_true == y_pred).mean()
 
 def evaluate_model(model, X_test, y_test):
-    
-    y_pred = model.predict(X_test)
-    accuracy = accuracy_score(y_test, y_pred)
-    report = classification_report(y_test, y_pred)
+    predictions = model.predict(X_test)
+    accuracy = accuracy_fn(y_test.values, predictions)
+    report = classification_report(y_test, predictions)
     return accuracy, report
